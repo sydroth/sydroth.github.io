@@ -201,7 +201,7 @@ a, a:visited {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  padding: 5px 15px;
+  padding: 5px 10px;
   display: block;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -531,6 +531,19 @@ blockquote {
   color: #aaaaaa;
 }
 
+.fixed-logo {
+	max-width: 20%;
+	height: auto !important;
+}
+
+.in-report-image {
+	max-width: 30%;
+	height: auto !important;
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
 
 /* Call To Action */
 
@@ -828,9 +841,15 @@ blockquote {
 }
 
 .static-info-project {
-  background-color: #f1f4f5;
-  padding: 80px 0;
   text-align: center;
+}
+
+.project-text-border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 10px #777777;
 }
 
 .related-projects {
@@ -1280,7 +1299,9 @@ blockquote {
 
 .site-footer {
   background-color: #f1f4f5;
-  padding: 100px 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
 }
