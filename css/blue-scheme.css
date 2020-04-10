@@ -1061,72 +1061,6 @@ blockquote {
   border-radius: 3px;
 }
 
-#blog-author {
-  border-bottom: 1px solid #dce4e6;
-  padding-bottom: 20px;
-}
-#blog-author .blog-author-img {
-  overflow: hidden;
-  width: 80px;
-  height: 80px;
-  margin-right: 25px;
-}
-#blog-author .blog-author-img img {
-  width: 100%;
-  height: 100%;
-}
-#blog-author .blog-author-info {
-  overflow: hidden;
-}
-#blog-author .blog-author-info h4.author-name {
-  font-weight: 600;
-  font-size: 18px;
-  margin: 0 0 7px 0;
-}
-#blog-author .blog-author-info h4.author-name a {
-  color: #31373a;
-}
-
-#blog-comments {
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-#blog-comments .blog-comments-content {
-  margin-top: 50px;
-}
-#blog-comments .media {
-  display: block;
-  margin-top: 30px;
-  border-bottom: 1px solid #dce4e6;
-}
-#blog-comments .media .media {
-  padding-top: 30px;
-  border-top: 1px solid #dce4e6;
-  border-bottom: 0;
-}
-#blog-comments .media-object {
-  margin-right: 10px;
-}
-#blog-comments .media-heading h4 {
-  display: inline-block;
-  margin: 0 15px 0 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-#blog-comments .media-heading a {
-  color: #aaaaaa;
-  font-size: 14px;
-}
-#blog-comments .media-heading a span:after {
-  content: '/';
-  color: #aaaaaa;
-  font-size: 13px;
-  margin: 0 10px;
-}
-#blog-comments .media-heading a span:last-of-type:after {
-  content: '';
-}
-
 .comment-form {
   margin-bottom: 100px;
 }
@@ -1142,25 +1076,6 @@ blockquote {
   width: auto;
 }
 
-.archive-wrapper {
-  margin-bottom: 100px;
-}
-.archive-wrapper .archive-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 40px 0 20px 0;
-}
-.archive-wrapper .archive-list {
-  margin-top: 20px;
-}
-.archive-wrapper .archive-list li {
-  line-height: 28px;
-}
-.archive-wrapper .archive-list li:before {
-  content: '-';
-  color: #aaaaaa;
-  margin-right: 10px;
-}
 
 /*------------------------------------------------------
 	Sidebar Styling 
@@ -1205,6 +1120,7 @@ blockquote {
   font-size: 16px;
   font-weight: 600;
   margin: 0;
+  padding-top: 25px;
 }
 .last-post .content h4 a {
   color: #31373a;
@@ -1261,7 +1177,7 @@ blockquote {
 }
 
 .contact-form {
-  margin-top: 50px;
+
   margin-bottom: 100px;
   padding-top: 50px;
   border-top: 1px solid #dce4e6;
