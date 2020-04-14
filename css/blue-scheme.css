@@ -783,6 +783,10 @@ blockquote {
   text-align: center;
 }
 
+.pro-title-sci {
+	padding-top: none;
+}
+
 .owl-prev {
   position: absolute;
   top: 50%;
@@ -802,7 +806,7 @@ blockquote {
 
 .project-single {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .project-single .project-title {
   font-weight: 600;
