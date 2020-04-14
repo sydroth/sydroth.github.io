@@ -293,7 +293,7 @@ a.menu-toggle-btn i {
 }
 
 .responsive_menu {
-  padding: 20px;
+  padding-top: 50px;
   background-color: rgba(49, 55, 58, 0.98);
   display: none;
   position: relative;
@@ -807,6 +807,7 @@ blockquote {
 .project-single {
   margin-top: 100px;
   margin-bottom: 50px;
+  padding-top: 5%; 
 }
 .project-single .project-title {
   font-weight: 600;
